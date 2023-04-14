@@ -5,7 +5,7 @@ function displayMessage() {
     Swal.fire(
         {
             backdrop: false,
-            title: 'App Name',
+            title: 'Reverse Rewind',
             text: msg
         }
     );
