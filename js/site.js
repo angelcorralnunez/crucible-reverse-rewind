@@ -6,7 +6,7 @@ function getValues() {
     
     let reversedInput = reverseString(userInput)
 
-    displayString('reversedInput');
+    displayString(reversedInput);
 }
 
 // Business Logic
@@ -15,7 +15,7 @@ function reverseString(message) {
     let reversedMessage = ''
 
     //  reverse the string
-    for (let index = message.length - 1; index >= 0; index - 1){
+    for (let index = message.length - 1; index >= 0; index = index - 1){
         reversedMessage += message[index];
     }
 
@@ -23,8 +23,8 @@ function reverseString(message) {
 }
 // View Function
 function displayString(reversedMessage) {
-    // show the string on the page / assign text input to reverseMessage
-    document.getElementById('msg').textContent = reverseMessage;
+    // show the string on the page / assign text input to reversedMessage
+    document.getElementById('msg').textContent = reversedMessage;
     // you want to remove the class d-none to get the alert to show / display
     document.getElementById('alert').classList.remove('d-none')
 }
