@@ -104,11 +104,14 @@ footer .bi:hover {
 }
 
 .appLogo {
-    max-width: 400px;
-    
+    max-width: 350px;
+    border-radius: 30px;
 }
 
-.rev-rewind {
-    border-radius: 30px;
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)
+
+#app-logo-img {
+    max-width: 400px;
 }
 
