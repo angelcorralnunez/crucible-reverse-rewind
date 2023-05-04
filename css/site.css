@@ -119,7 +119,7 @@ footer .bi:hover {
 }
 
 .app-btn {
-    width: 25%;
+    width: 33.33%;
 }
 
 .app-btn:hover {
@@ -131,13 +131,22 @@ footer .bi:hover {
     #app-logo-img {
         max-width: 400px;
     }
+
+    .app-btn {
+    width: 25%;
 }
-
-
+}
 
 /* Large devices (tablets, 992px and up) */
 @media (min-width: 992px) {
-    #app-btn {
+    .app-btn {
+        width: 20%;
+    }
+}
+
+/* XX-large devices (tablets, 1400px and up) */
+@media (min-width: 1400px) {
+    .app-btn {
         width: 15%;
     }
 }
