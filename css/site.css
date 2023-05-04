@@ -15,7 +15,7 @@ font-family: 'Fira Sans Condensed', sans-serif;
      --acn-highlight-color: rgba(158, 233, 230, 1);
      --acn-dark-color: rgba(17, 17, 17, 1);
      --acn-light-color:  rgba(102, 220, 215, 1);
-     --acn-background-color: rgba(136, 136, 136, 1);
+     --acn-background-color: rgba(196, 196, 196, 1);
        --acn-bootstrap-info-color: rgba(84, 180, 211, 1);
 
      /* --acn-light-color:  rgba(158, 233, 230, 1);
@@ -113,7 +113,7 @@ footer .bi:hover {
 }
 
 .checklist>li i {
-    color: var(--acn-secondary-color);  
+    color: var(--acn-primary-color);  
     padding-right: .5rem;
 }
 
@@ -129,6 +129,10 @@ footer .bi:hover {
 
 #app-btn {
     width: 25%;
+}
+
+#app-btn:hover {
+    color: rgba(255, 255, 255, 1)!important;
 }
 
 /* Medium devices (tablets, 768px and up) */
