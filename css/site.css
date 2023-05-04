@@ -117,11 +117,11 @@ footer .bi:hover {
     border-radius: 30px;
 }
 
-#app-btn {
+.app-btn {
     width: 25%;
 }
 
-#app-btn:hover {
+.app-btn:hover {
     color: rgba(255, 255, 255, 1)!important;
 }
 
