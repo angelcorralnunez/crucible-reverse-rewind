@@ -128,7 +128,7 @@ footer .bi:hover {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    #app-logo-img {
+    .appLogo {
         max-width: 400px;
     }
 
