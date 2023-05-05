@@ -5,7 +5,7 @@ font-family: 'Fira Sans Condensed', sans-serif;
 
 :root {
     /* fonts */
-   --acn-title-font: 'Alkatra', cursive;
+    --acn-title-font: 'Alkatra', cursive;
     --acn-subtitle-font: 'Fira Sans', sans-serif;
     --acn-heading-font: 'Alkatra', cursive;
 
@@ -38,7 +38,7 @@ body {
     flex-direction: column;
     /*flex-column*/
 
-  font-family: var(--acn-body-font) !important;
+  font-family: 'Fira Sans Condensed', sans-serif !important;
   font-family: var(acn-font-size);
   font-family: var(acn-font-weight);
   font-family: var(acn-line-height);
